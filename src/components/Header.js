@@ -15,7 +15,7 @@ class Header extends React.Component {
 
       <BrowserRouter>
         <div>
-          <Route path="/" exact component={Top} />
+          <Route exact path="/" component={Top} />
           <Route path="/news" component={News} />
           <Route path="/schedule"  component={Schedule} />
           <Route path="/biography"  component={Biography} />
@@ -53,4 +53,4 @@ class Header extends React.Component {
   }
 }
 
-export default Header;
+export default Header; //App.jsにエクスポート

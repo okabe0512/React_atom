@@ -10,8 +10,8 @@ const style = {
 class Main extends React.Component {
   render() {
     return (
-      <div className ="main">
 
+      <div className ="main">
 
         <h1 class="logo">
           <img style={ style } />
@@ -39,14 +39,9 @@ class Main extends React.Component {
               <div className="movie">
                 <h2>MOVIE</h2>
               </div>
-              <p>
-                ここに動画埋め込みここに動画埋め込みここに動画埋め込みここに動画埋め込みここに動画埋め込みここに動画埋め込み
-                ここに動画埋め込みここに動画埋め込みここに動画埋め込みここに動画埋め込みここに動画埋め込みここに動画埋め込み
-                ここに動画埋め込みここに動画埋め込みここに動画埋め込みここに動画埋め込みここに動画埋め込みここに動画埋め込み
-                ここに動画埋め込みここに動画埋め込みここに動画埋め込みここに動画埋め込みここに動画埋め込みここに動画埋め込み
-                ここに動画埋め込みここに動画埋め込みここに動画埋め込みここに動画埋め込みここに動画埋め込みここに動画埋め込み
-                ここに動画
-              </p>
+
+              <iframe width="560" height="315" src="https://www.youtube.com/embed/gH476CxJxfg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
             </div>
 
           </div>
@@ -58,4 +53,4 @@ class Main extends React.Component {
   }
 }
 
-export default Main;
+export default Main;　//App.jsにエクスポート
