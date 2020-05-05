@@ -123,16 +123,11 @@
 
 }
 /*フッター------------------------------------------*/
-.footer {
-  background-color: silver;
-}
 
-.footer-contents li {
+.menu_sub li {
+  background-color: silver;
   display: inline;
   padding-right: 40px;
-}
-
-.footer-contents li {
   display: inline;
   padding-right: 20px;
   float: left;
@@ -140,12 +135,12 @@
   list-style-type: none;
 }
 
-.footer-contents ul {
+.menu_sub ul {
     width: 100%;
     overflow: hidden;
 }
 
-.footer-contents a {
+.menu_sub a {
     display: block;
     padding: 20px 0;
     text-align: center;
@@ -155,13 +150,30 @@
     color: black;
 }
 
-.footer-contents a:hover {
+.menu_sub a:hover {
     background-color: white;
 }
-
 
 
 .copyright p {
   margin-top: 50px;
   margin-bottom: 0px;
+}
+
+/*色々------------------------------------------*/
+.grid {
+  margin: 0;
+  padding: 0;
+  width: 450px;
+}
+
+.grid li {
+  margin: 10px;
+  float:left;
+  list-style: none;
+}
+
+.grid img {
+  width: 100px;
+  height: 100px;
 }

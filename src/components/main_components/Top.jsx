@@ -1,5 +1,5 @@
 import React from 'react';
-import bg from './img/wallhaven-4oz950.jpg';
+import bg from '../img/wallhaven-4oz950.jpg';
 
 export default class Top extends React.Component {
   render() {
