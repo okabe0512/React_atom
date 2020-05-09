@@ -1,7 +1,7 @@
 import React from 'react';
 import bg from '../img/wallhaven-4oz950.jpg';
 
-export default class Top extends React.Component {
+class Top extends React.Component {
   render() {
 
     const style = {
@@ -49,3 +49,5 @@ export default class Top extends React.Component {
     );
   }
 }
+
+export default Top;

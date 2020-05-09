@@ -1,17 +1,20 @@
 import React from 'react';
 
-
 class Header extends React.Component {
   render() {
     return (
       <div className="header-item">
 
         <div className="title">
-          <a hreh="">ここにタイトル名</a>
+          <a hreh="">Title</a>
         </div>
 
         <div className="subtitle">
-          <a hreh="">ここはサブタイトル名</a>
+          <a hreh="">--subtitle-------</a>
+        </div>
+
+        <div className="form">
+          <a hreh="">CONTACT(アイコンにする)</a>
         </div>
 
       </div>

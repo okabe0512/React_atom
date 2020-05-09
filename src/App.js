@@ -8,9 +8,11 @@ class App extends React.Component {
   render() {
     return (
       <div className ="all">
+
             <Header />
             <Main />
             <Footer />
+
       </div>
     );
   }
