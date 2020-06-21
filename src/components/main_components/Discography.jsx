@@ -21,6 +21,12 @@ class Discography extends React.Component {
               <li><a href=""><img style={list} /><p>男の子D</p></a></li>
               <li><a href=""><img style={list} /><p>男の子E</p></a></li>
               <li><a href=""><img style={list} /><p>男の子F</p></a></li>
+              <li><a href=""><img style={list} /><p>男の子A</p></a></li>
+              <li><a href=""><img style={list} /><p>男の子B</p></a></li>
+              <li><a href=""><img style={list} /><p>男の子C</p></a></li>
+              <li><a href=""><img style={list} /><p>男の子D</p></a></li>
+              <li><a href=""><img style={list} /><p>男の子E</p></a></li>
+              <li><a href=""><img style={list} /><p>男の子F</p></a></li>
             </ul>
           </div>
 

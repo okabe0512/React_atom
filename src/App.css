@@ -26,9 +26,9 @@ body {
 
 .menu li {
   display: inline;
-  padding-right: 20px;
+  padding: 0px 40px;
   float: left;
-  width: 280px;
+  width: 287px;
   list-style-type: none;
 }
 
@@ -129,6 +129,23 @@ body {
     padding-left: 20px;
     padding-right: 20px;
   }
+
+  .left_content_news {
+    padding-left: 20px;
+  }
+
+  .news-main-top {
+    padding-top: 10px;
+    padding-left: 150px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap-reverse;
+  }
+
+  .newsdata a{
+    margin-left: 400px;
+  }
+
   .right_content {
     display: table-cell;
     width: 30%;
@@ -138,14 +155,16 @@ body {
 
 }
 /*フッター------------------------------------------*/
+.iro {
+  display: flex;
+}
 
 .menu_sub li {
   background-color: silver;
-  margin-top: 100px;
   display: inline;
-  padding-right: 20px;
+  padding: 0px 40px;
   float: left;
-  width: 280px;
+  width: 287px;
   list-style-type: none;
 }
 
@@ -199,4 +218,66 @@ body {
   background-color: black;
   margin: 40px 50px;
   padding: 10px;
+}
+
+.news-main {
+  padding-top: 10px;
+  padding-left: 400px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap-reverse;
+}
+
+.news-date {
+  padding-bottom: 20px;
+}
+
+.news-name {
+  padding-left: 60px;
+}
+
+.news-content {
+  padding-left: 100px;
+  padding-bottom: 20px;
+}
+
+.pro-Contents_Box{
+}
+
+.pro-Contents_Photo {
+  text-align: left;
+}
+
+.pro-Contents_Photo img {
+  background-size: contain;
+  display: table;
+  margin-left: 350px;
+  margin-bottom: 20px;
+  width:40%;
+
+}
+
+.pro-Contents_Prof {
+  width:30%;
+  position: absolute;
+   top:330px; right:350px;
+}
+
+.pro-Contents_Prof h5 {
+  font-family: serif;
+  font-weight: 100;
+  font-size: 20px;
+  text-align: left;
+  margin-bottom: -20px;
+}
+
+.pro-Contents_Prof h1 {
+  font-family: serif;
+  font-weight: 100;
+  font-size: 50px;
+  text-align: left;
+}
+
+.pro-Contents_Text {
+  text-align: left;
 }
